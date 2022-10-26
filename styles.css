@@ -44,6 +44,16 @@ h2 {
     color: white;
 }
 
+.verified-buyer {
+    color: var(--soft-pink);
+    font-weight: 400;
+}
+
+.testimonial p {
+    text-align: left;
+    line-height: 1.5em;
+}
+
 /* LAYOUT */
 
 body {
@@ -89,9 +99,27 @@ h2 {
     background-color: var(--very-dark-magenta);
     border-radius: 8px;
     margin-top: 1em;
+    padding: 2em;
 }
 
 .testimonial-header {
     display: flex;
     flex-direction: row;
+    margin-top: 1em;
+}
+
+.testimonial-header img {
+    border-radius: 50%;
+    max-height: 40px;
+    margin-right: 1.5em;
+}
+
+.buyer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.testimonial p {
+    margin-top: 1.5em;
 }
